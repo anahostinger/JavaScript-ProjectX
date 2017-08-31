@@ -56,5 +56,7 @@
 <icon platform="android" src="package-assets/icon_48.png" density="mdpi" width="48" height="48"/>
 <icon platform="android" src="package-assets/icon_72.png" density="hdpi" width="72" height="72"/>
 <icon platform="android" src="package-assets/icon_96.png" density="xhdpi" width="96" height="96"/>
-
+<config-file platform="android" parent="/manifest/application" mode="merge"> 
+    <activity android:launchMode="singleTop" />
+</config-file>
 </widget>
